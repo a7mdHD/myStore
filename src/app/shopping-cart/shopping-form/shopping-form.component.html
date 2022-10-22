@@ -1,0 +1,19 @@
+<form #form="ngForm">
+    <div class="form-margin">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" class="form-control" id="name" required minlength="3" 
+        placeholder="(minimum 3 characters)" [(ngModel)]="name"/>
+      
+      <label for="address" class="mt-2">Address</label>
+      <input type="text" name="address" class="form-control" id="address" required minlength="6"
+        placeholder="(minimum 6 characters)" [(ngModel)]="address"/>
+
+      <label for="card" class="mt-2">Credit card number</label>
+      <input type="number" name="cardNumber" class="form-control" id="card" required maxlength="16" minlength="16"
+        placeholder="(16-digit number)" [(ngModel)]="cardNumber"/>
+        
+      <small>We'll never share your payment detail with anyone else.</small>
+    </div>
+    <input type="submit" value="submit" [disabled]="form.invalid" class="btn btn-primary my-2" 
+      routerLink="/order-confirmed" (click)="submitForm()"/>
+</form>
