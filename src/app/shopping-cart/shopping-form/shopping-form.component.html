@@ -9,8 +9,8 @@
         placeholder="(minimum 6 characters)" [(ngModel)]="address"/>
 
       <label for="card" class="mt-2">Credit card number</label>
-      <input type="number" name="cardNumber" class="form-control" id="card" required maxlength="16" minlength="16"
-        placeholder="(16-digit number)" [(ngModel)]="cardNumber"/>
+      <input type="text" name="cardNumber" class="form-control" id="card" required  minlength="16" 
+        maxlength="16" placeholder="(16-digit number)" [(ngModel)]="cardNumber"/>
         
       <small>We'll never share your payment detail with anyone else.</small>
     </div>

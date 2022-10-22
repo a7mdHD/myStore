@@ -52,12 +52,12 @@ You can also use `ng generate service|class|interface|module`.
 
 ## Routes
 
-| PATH              | COMPONENT           |
-| ----------------- | ------------------- |
-| /                 | products            |
-| /product/:id      | product-item-detail |
-| /cart             | shopping-cart       |
-| /order-confirmed  | shopping-receipt    |
+| PATH                 | COMPONENT           |
+| -------------------- | ------------------- |
+| /                    | products            |
+| /product-details/:id | product-item-detail |
+| /cart                | shopping-cart       |
+| /order-confirmed     | shopping-receipt    |
 
 
 ## Build
