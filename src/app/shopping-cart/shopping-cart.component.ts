@@ -20,13 +20,12 @@ export class ShoppingCartComponent implements OnInit {
     this.totalPrice = this.cartService.calculateTotalPrice();
   }
 
-  changeQuantity(event: any, product: IProductOrder): void {
-    this.cartService.updateQuantity(event.target.value, product.id);
+  changeQuantity(quantity: number, product: IProductOrder): void {
+    this.cartService.updateQuantity(quantity, product.id);
     this.totalPrice = this.cartService.calculateTotalPrice();
   }
 
   addName(name: string): void {
     this.cartService.userName = name;
-    console.log(name);
   }
 } 

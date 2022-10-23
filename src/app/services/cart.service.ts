@@ -6,7 +6,6 @@ import { IProductOrder } from '../models/productOrder';
 })
 export class CartService {
   productsInCart: IProductOrder[] = [];
-  total: number = 0;
   userName: string = '';
   userAddress: string = '';
   userCardNumber: number = 0;
@@ -34,12 +33,12 @@ export class CartService {
     let totalPrice = 0;
     this.productsInCart.map(product => {
       totalPrice += product.price * product.quantity;
-      this.total = totalPrice;
     });
     return totalPrice;
   }
 
   updateQuantity(newValue: number, id: number) {
+    // console.log(newValue);
     this.productsInCart.map(product => {
       if(product.id == id) {
         product.quantity = newValue;

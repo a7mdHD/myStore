@@ -11,8 +11,8 @@
         </div>
         <div>
           <span for="quantity">Amount:</span>
-          <input id="quantity" type="number" class="number-input" min="0" [value]="product.quantity"
-              (change)="changeQuantity($event, product)"/>
+          <input id="quantity" type="number" class="number-input" min="0" [(ngModel)]="product.quantity"
+            (ngModelChange)="changeQuantity($event, product)" />
         </div>
       </div>
     </div>
