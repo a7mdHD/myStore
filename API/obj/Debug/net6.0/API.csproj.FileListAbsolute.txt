@@ -19,7 +19,6 @@ D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\API.MvcApplicationParts
 D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\staticwebassets.build.json
 D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\staticwebassets.development.json
 D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
-D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\API.csproj.CopyComplete
 D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\API.dll
 D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\refint\API.dll
 D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\API.pdb
@@ -59,5 +58,12 @@ D:\Courses\Projects\Udacity\myStore\API\bin\Debug\net6.0\runtimes\win\lib\netcor
 D:\Courses\Projects\Udacity\myStore\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Courses\Projects\Udacity\myStore\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Courses\Projects\Udacity\myStore\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\Courses\Projects\Udacity\myStore\API\bin\Debug\net6.0\Data\SeedData\data.json
 D:\Courses\Projects\Udacity\myStore\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Courses\Projects\Udacity\myStore\API\bin\Debug\net6.0\Data\SeedData\productsData.json
+D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\API.sourcelink.json
+D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\staticwebassets\msbuild.build.API.props
+D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API.props
+D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Courses\Projects\Udacity\myStore\API\obj\Debug\net6.0\API.csproj.Up2Date

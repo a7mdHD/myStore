@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Book",
+    "Price": 9.99,
+    "PictureUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "Description": "You can read it!"
+  },
+  {
+    "Name": "Headphones",
+    "Price": 249.99,
+    "PictureUrl": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "Description": "Listen to stuff!"
+  },
+  {
+    "Name": "Backpack",
+    "Price": 79.99,
+    "PictureUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "Description": "Carry things around town!"
+  },
+  {
+    "Name": "Glasses",
+    "Price": 129.99,
+    "PictureUrl": "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "Description": "Now you can see!"
+  },
+  {
+    "Name": "Cup",
+    "Price": 4.99,
+    "PictureUrl": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "Description": "Drink anything with it!"
+  },
+  {
+    "Name": "Shirt",
+    "Price": 29.99,
+    "PictureUrl": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+    "Description": "Wear it with style!"
+  }
+]
