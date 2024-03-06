@@ -43,6 +43,7 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = jwtOptions.Audience,
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.Key)),
+        ClockSkew = TimeSpan.Zero
     };
 });
 builder.Services.AddCors(options =>

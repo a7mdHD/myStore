@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Courses\\Projects\\Udacity\\myStore\\API\\API.csproj": {}
+    "D:\\MyStore\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Courses\\Projects\\Udacity\\myStore\\API\\API.csproj": {
+    "D:\\MyStore\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Courses\\Projects\\Udacity\\myStore\\API\\API.csproj",
+        "projectUniqueName": "D:\\MyStore\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Courses\\Projects\\Udacity\\myStore\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\HD\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\Projects\\Udacity\\myStore\\API\\obj\\",
+        "projectPath": "D:\\MyStore\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Khabeer\\.nuget\\packages\\",
+        "outputPath": "D:\\MyStore\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Khabeer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -34,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -109,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
